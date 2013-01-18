@@ -92,6 +92,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/lib/libmmstereo.so:system/lib/libmmstereo.so \
 	vendor/samsung/skyrocket/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/samsung/skyrocket/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+	vendor/samsung/skyrocket/proprietary/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+	vendor/samsung/skyrocket/proprietary/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
+	vendor/samsung/skyrocket/proprietary/lib/liblightcycle.so:system/lib/liblightcycle.so \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/default_ap.conf:system/etc/wifi/default_ap.conf \
 	vendor/samsung/skyrocket/proprietary/etc/wifi/wl:system/etc/wifi/wl \
@@ -114,3 +117,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+
